@@ -3,6 +3,7 @@
 
     $title = "POOF • Sing In";
     $classBody = "singin";
+
 ?>
 
 <?php ob_start(); ?>
@@ -11,7 +12,7 @@
     <main>
         <div class="wrapperForm">
             <h1>S'inscrire</h1>
-            <form action="src/characterRepository/createAccount.php" method="post">
+            <form action="src/models/model.php" method="post">
                 <div>
                     <label for="firstName">Prénom</label>
                     <input type="text" id="firstName" name="firstName" >

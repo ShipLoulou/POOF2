@@ -40,6 +40,11 @@ header ul {
   display: flex;
 }
 
+header a {
+  color: #000;
+  text-decoration: none;
+}
+
 header li {
   margin-left: 30px;
   font-weight: 600;
